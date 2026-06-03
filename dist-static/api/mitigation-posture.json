@@ -1,0 +1,50 @@
+[
+  {
+    "lane": "Foundation model control plane",
+    "action": "DIVERSIFY",
+    "compositeRiskScore": 74.5,
+    "owner": "Chief Product Officer",
+    "replaceableSpendMillions": 14,
+    "nextMove": "Stand up one board-visible fallback path for every customer-facing model workflow above the premium margin threshold."
+  },
+  {
+    "lane": "Cloud AI bundle and hosting estate",
+    "action": "RING_FENCE",
+    "compositeRiskScore": 69,
+    "owner": "Platform engineering lead",
+    "replaceableSpendMillions": 11,
+    "nextMove": "Force one renewal packet that prices AI, cloud, and identity together and separately before the next contract cycle."
+  },
+  {
+    "lane": "Regulated disclosure and policy operations",
+    "action": "CONTAIN",
+    "compositeRiskScore": 60.5,
+    "owner": "Risk and compliance lead",
+    "replaceableSpendMillions": 5,
+    "nextMove": "Publish one vendor-neutral evidence index and force every trust packet to resolve through it first."
+  },
+  {
+    "lane": "Data pipelines and model fine-tuning estate",
+    "action": "PORT",
+    "compositeRiskScore": 64.8,
+    "owner": "Head of data",
+    "replaceableSpendMillions": 8,
+    "nextMove": "Create one provider-neutral export bundle for prompts, evals, and tuning traces before the next major vendor negotiation."
+  },
+  {
+    "lane": "Revenue-facing AI experience estate",
+    "action": "NEGOTIATE",
+    "compositeRiskScore": 61.8,
+    "owner": "Chief Revenue Officer",
+    "replaceableSpendMillions": 7,
+    "nextMove": "Attach one alternate-provider or degraded-mode plan to every revenue-critical AI workflow above the margin review threshold."
+  },
+  {
+    "lane": "Board and investor intelligence estate",
+    "action": "ESCALATE",
+    "compositeRiskScore": 54.7,
+    "owner": "Principal operator",
+    "replaceableSpendMillions": 4,
+    "nextMove": "Add one quarterly substitution drill and one confidence score to every concentrated executive-intelligence lane."
+  }
+]

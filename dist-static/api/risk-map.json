@@ -1,0 +1,74 @@
+[
+  {
+    "lane": "Foundation model control plane",
+    "dimension": "MODEL_LOCK_IN",
+    "compositeRiskScore": 74.5,
+    "replaceableSpendMillions": 14,
+    "concentrationScore": 86,
+    "companyTags": [
+      "OpenAI",
+      "Anthropic",
+      "Google"
+    ]
+  },
+  {
+    "lane": "Cloud AI bundle and hosting estate",
+    "dimension": "INTEGRATION_DEPTH",
+    "compositeRiskScore": 69,
+    "replaceableSpendMillions": 11,
+    "concentrationScore": 79,
+    "companyTags": [
+      "Microsoft",
+      "Azure",
+      "AWS"
+    ]
+  },
+  {
+    "lane": "Regulated disclosure and policy operations",
+    "dimension": "COMPLIANCE_DEPENDENCY",
+    "compositeRiskScore": 60.5,
+    "replaceableSpendMillions": 5,
+    "concentrationScore": 68,
+    "companyTags": [
+      "Vanta",
+      "Drata",
+      "Google"
+    ]
+  },
+  {
+    "lane": "Data pipelines and model fine-tuning estate",
+    "dimension": "DATA_EGRESS",
+    "compositeRiskScore": 64.8,
+    "replaceableSpendMillions": 8,
+    "concentrationScore": 74,
+    "companyTags": [
+      "Databricks",
+      "Snowflake",
+      "OpenAI"
+    ]
+  },
+  {
+    "lane": "Revenue-facing AI experience estate",
+    "dimension": "PRICING_POWER",
+    "compositeRiskScore": 61.8,
+    "replaceableSpendMillions": 7,
+    "concentrationScore": 71,
+    "companyTags": [
+      "OpenAI",
+      "AWS",
+      "HubSpot"
+    ]
+  },
+  {
+    "lane": "Board and investor intelligence estate",
+    "dimension": "MULTI_VENDOR_GAP",
+    "compositeRiskScore": 54.7,
+    "replaceableSpendMillions": 4,
+    "concentrationScore": 65,
+    "companyTags": [
+      "OpenAI",
+      "Anthropic",
+      "Google"
+    ]
+  }
+]

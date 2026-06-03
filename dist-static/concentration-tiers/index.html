@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Concentration tiers · Kinetic Gain</title>
+    <meta name="description" content="Concentration-tier view showing which AI supplier failure mode is strongest in each lane." />
+    <style>
+      :root { color-scheme: dark; --bg:#07111d; --panel:#0d1a2b; --border:rgba(103,224,190,.22); --text:#edf2ff; --muted:#9fb0cf; --accent:#67e0be; --accent-2:#7dc4ff; }
+      * { box-sizing:border-box; }
+      body { margin:0; font-family:"Segoe UI",system-ui,sans-serif; background:radial-gradient(circle at top left, rgba(125,196,255,.12), transparent 30%), linear-gradient(180deg,#050c16 0%,var(--bg) 100%); color:var(--text); }
+      a { color:var(--accent-2); text-decoration:none; }
+      .wrap { max-width:1180px; margin:0 auto; padding:32px 24px 64px; }
+      .hero,.section { background:linear-gradient(180deg, rgba(14,28,45,.95), rgba(10,19,33,.98)); border:1px solid var(--border); border-radius:28px; padding:28px; box-shadow:0 18px 60px rgba(2,7,16,.35); }
+      .hero { margin-bottom:24px; }
+      .eyebrow { display:inline-block; padding:10px 16px; border-radius:999px; border:1px solid var(--border); background:rgba(103,224,190,.08); color:var(--accent); font-size:12px; text-transform:uppercase; letter-spacing:.28em; }
+      h1,h2 { margin:18px 0 12px; font-family:Georgia,serif; line-height:.95; }
+      h1 { font-size:clamp(56px,8vw,92px); max-width:980px; }
+      h2 { font-size:clamp(36px,4vw,54px); }
+      .lede { color:var(--muted); font-size:20px; line-height:1.6; max-width:920px; }
+      .nav { display:flex; gap:10px; flex-wrap:wrap; margin-top:22px; }
+      .nav a { padding:10px 14px; border:1px solid rgba(125,196,255,.18); border-radius:999px; color:var(--muted); }
+      .nav a.active { color:var(--text); border-color:var(--accent); background:rgba(103,224,190,.08); }
+      .metrics,.grid { display:grid; gap:18px; }
+      .metrics { grid-template-columns:repeat(auto-fit, minmax(180px,1fr)); margin-top:26px; }
+      .metric,.card,.table-wrap { background:rgba(16,32,50,.76); border:1px solid rgba(125,196,255,.12); border-radius:22px; padding:18px; }
+      .metric-label,.chip { color:var(--accent); text-transform:uppercase; letter-spacing:.18em; font-size:12px; }
+      .metric-value { display:block; font-size:40px; font-weight:700; margin-top:10px; }
+      .metric-copy { margin-top:10px; color:var(--muted); line-height:1.5; }
+      .section { margin-top:24px; }
+      .grid { grid-template-columns:repeat(auto-fit, minmax(280px,1fr)); }
+      .card h3 { margin:12px 0 10px; font-size:30px; line-height:1.05; }
+      .card p,li { color:var(--muted); line-height:1.6; }
+      .table-wrap { overflow-x:auto; }
+      table { width:100%; border-collapse:collapse; }
+      th,td { text-align:left; padding:12px; border-bottom:1px solid rgba(125,196,255,.12); vertical-align:top; }
+      th { color:var(--accent); font-size:12px; text-transform:uppercase; letter-spacing:.18em; }
+      ul { padding-left:20px; }
+      pre { white-space:pre-wrap; overflow-wrap:anywhere; color:var(--muted); background:rgba(7,17,29,.75); border:1px solid rgba(125,196,255,.12); border-radius:18px; padding:18px; }
+      .footer { margin-top:24px; color:var(--muted); font-size:14px; display:flex; gap:18px; flex-wrap:wrap; }
+    </style>
+  </head>
+  <body>
+    <div class="wrap">
+      <section class="hero"><span class="eyebrow">Concentration tiers</span><h1>The real supplier pressure stays visible: is it model lock-in, pricing power, egress friction, compliance dependency, or platform coupling?</h1><p class="lede">This view keeps each lane tied to the dominant AI supplier weakness so leadership can reduce the right dependency first.</p><div class="nav"><a href="/">Overview</a><a href="/vendor-register">Vendor register</a><a class="active" href="/concentration-tiers">Concentration tiers</a><a href="/mitigation-posture">Mitigation posture</a><a href="/verification">Verification</a><a href="/docs">Docs</a></div></section><section class="section table-wrap"><table><thead><tr><th>Lane</th><th>Tier</th><th>Dimension</th><th>Risk headline</th><th>Concentration signal</th><th>Blocking issue</th><th>Concentration</th><th>Switching cost</th><th>Contract exposure</th><th>Fallback readiness</th><th>Compliance dependency</th><th>Platform coupling</th></tr></thead><tbody><tr><td>Foundation model control plane</td><td>LOCKED_IN</td><td>MODEL_LOCK_IN</td><td>Model strategy is moving faster than vendor diversification.</td><td>Critical routes still assume one provider's latency, tool semantics, and release cadence.</td><td>The fallback model path is not strong enough to absorb a commercial or reliability shock.</td><td>86</td><td>82</td><td>71</td><td>39</td><td>63</td><td>84</td></tr><tr><td>Cloud AI bundle and hosting estate</td><td>CONCENTRATED</td><td>INTEGRATION_DEPTH</td><td>Platform leverage is improving while switching leverage is getting worse.</td><td>The same provider keeps winning adjacent layers because procurement and technical handoffs reward the bundle.</td><td>The team lacks one clean isolation boundary for moving AI workloads without pulling infra and identity along with them.</td><td>79</td><td>76</td><td>69</td><td>48</td><td>57</td><td>81</td></tr><tr><td>Regulated disclosure and policy operations</td><td>WATCHLIST</td><td>COMPLIANCE_DEPENDENCY</td><td>Proof portability is weaker than the public trust story suggests.</td><td>Policy exports, audit evidence, and disclosure packets still map best to one provider's control framework.</td><td>The estate lacks one portable control vocabulary that survives outside the current trust vendor contract.</td><td>68</td><td>64</td><td>58</td><td>56</td><td>77</td><td>52</td></tr><tr><td>Data pipelines and model fine-tuning estate</td><td>CONCENTRATED</td><td>DATA_EGRESS</td><td>Portability remains weaker than procurement leverage.</td><td>The migration packet still requires too much format cleanup and too much model-specific adaptation work.</td><td>There is no one durable export contract for prompts, evals, and supporting data flows.</td><td>74</td><td>83</td><td>54</td><td>44</td><td>49</td><td>73</td></tr><tr><td>Revenue-facing AI experience estate</td><td>WATCHLIST</td><td>PRICING_POWER</td><td>Margin quality is improving while supplier leverage is slipping.</td><td>Growth workflows keep adding higher-value use cases faster than multi-vendor negotiating leverage is improving.</td><td>The commercial team still lacks one clear downgrade or alternate-provider story for key AI-enhanced experiences.</td><td>71</td><td>68</td><td>79</td><td>51</td><td>43</td><td>61</td></tr><tr><td>Board and investor intelligence estate</td><td>WATCHLIST</td><td>MULTI_VENDOR_GAP</td><td>Narrative diversification is ahead of operational diversification.</td><td>Too many leadership surfaces can describe supplier options but cannot yet demonstrate clean substitution under pressure.</td><td>There is no one recurring drill packet that proves a concentrated lane can survive provider disruption or repricing.</td><td>65</td><td>59</td><td>52</td><td>46</td><td>41</td><td>57</td></tr></tbody></table></section>
+      <div class="footer">
+        <span>AI Vendor Concentration Watch</span>
+        <a href="https://vendors.kineticgain.com">vendors.kineticgain.com</a>
+        <a href="https://github.com/mizcausevic-dev/">GitHub</a>
+        <a href="https://www.linkedin.com/in/mirzacausevic/">LinkedIn</a>
+        <a href="https://kineticgain.com/">Kinetic Gain</a>
+      </div>
+    </div>
+  </body>
+</html>

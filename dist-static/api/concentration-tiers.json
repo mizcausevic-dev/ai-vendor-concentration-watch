@@ -1,0 +1,116 @@
+[
+  {
+    "lane": "Foundation model control plane",
+    "concentrationTier": "LOCKED_IN",
+    "dimension": "MODEL_LOCK_IN",
+    "riskHeadline": "Model strategy is moving faster than vendor diversification.",
+    "concentrationSignal": "Critical routes still assume one provider's latency, tool semantics, and release cadence.",
+    "blockingIssue": "The fallback model path is not strong enough to absorb a commercial or reliability shock.",
+    "evidenceArtifacts": [
+      "ai governance agent readiness scorecard",
+      "claims vs reality engine",
+      "governance registry"
+    ],
+    "concentrationScore": 86,
+    "switchingCostScore": 82,
+    "contractExposureScore": 71,
+    "fallbackReadinessScore": 39,
+    "complianceDependencyScore": 63,
+    "platformCouplingScore": 84
+  },
+  {
+    "lane": "Cloud AI bundle and hosting estate",
+    "concentrationTier": "CONCENTRATED",
+    "dimension": "INTEGRATION_DEPTH",
+    "riskHeadline": "Platform leverage is improving while switching leverage is getting worse.",
+    "concentrationSignal": "The same provider keeps winning adjacent layers because procurement and technical handoffs reward the bundle.",
+    "blockingIssue": "The team lacks one clean isolation boundary for moving AI workloads without pulling infra and identity along with them.",
+    "evidenceArtifacts": [
+      "platform margin leak report",
+      "identity cost drift brief",
+      "vendor replacement intelligence"
+    ],
+    "concentrationScore": 79,
+    "switchingCostScore": 76,
+    "contractExposureScore": 69,
+    "fallbackReadinessScore": 48,
+    "complianceDependencyScore": 57,
+    "platformCouplingScore": 81
+  },
+  {
+    "lane": "Regulated disclosure and policy operations",
+    "concentrationTier": "WATCHLIST",
+    "dimension": "COMPLIANCE_DEPENDENCY",
+    "riskHeadline": "Proof portability is weaker than the public trust story suggests.",
+    "concentrationSignal": "Policy exports, audit evidence, and disclosure packets still map best to one provider's control framework.",
+    "blockingIssue": "The estate lacks one portable control vocabulary that survives outside the current trust vendor contract.",
+    "evidenceArtifacts": [
+      "security control evidence binder",
+      "trust assertion drift monitor",
+      "procurement ready os"
+    ],
+    "concentrationScore": 68,
+    "switchingCostScore": 64,
+    "contractExposureScore": 58,
+    "fallbackReadinessScore": 56,
+    "complianceDependencyScore": 77,
+    "platformCouplingScore": 52
+  },
+  {
+    "lane": "Data pipelines and model fine-tuning estate",
+    "concentrationTier": "CONCENTRATED",
+    "dimension": "DATA_EGRESS",
+    "riskHeadline": "Portability remains weaker than procurement leverage.",
+    "concentrationSignal": "The migration packet still requires too much format cleanup and too much model-specific adaptation work.",
+    "blockingIssue": "There is no one durable export contract for prompts, evals, and supporting data flows.",
+    "evidenceArtifacts": [
+      "portfolio benchmark scorebook",
+      "investment committee scenario lab",
+      "claims vs reality engine"
+    ],
+    "concentrationScore": 74,
+    "switchingCostScore": 83,
+    "contractExposureScore": 54,
+    "fallbackReadinessScore": 44,
+    "complianceDependencyScore": 49,
+    "platformCouplingScore": 73
+  },
+  {
+    "lane": "Revenue-facing AI experience estate",
+    "concentrationTier": "WATCHLIST",
+    "dimension": "PRICING_POWER",
+    "riskHeadline": "Margin quality is improving while supplier leverage is slipping.",
+    "concentrationSignal": "Growth workflows keep adding higher-value use cases faster than multi-vendor negotiating leverage is improving.",
+    "blockingIssue": "The commercial team still lacks one clear downgrade or alternate-provider story for key AI-enhanced experiences.",
+    "evidenceArtifacts": [
+      "revenue control breakage map",
+      "operating model friction index",
+      "executive board brief"
+    ],
+    "concentrationScore": 71,
+    "switchingCostScore": 68,
+    "contractExposureScore": 79,
+    "fallbackReadinessScore": 51,
+    "complianceDependencyScore": 43,
+    "platformCouplingScore": 61
+  },
+  {
+    "lane": "Board and investor intelligence estate",
+    "concentrationTier": "WATCHLIST",
+    "dimension": "MULTI_VENDOR_GAP",
+    "riskHeadline": "Narrative diversification is ahead of operational diversification.",
+    "concentrationSignal": "Too many leadership surfaces can describe supplier options but cannot yet demonstrate clean substitution under pressure.",
+    "blockingIssue": "There is no one recurring drill packet that proves a concentrated lane can survive provider disruption or repricing.",
+    "evidenceArtifacts": [
+      "vendor replacement intelligence",
+      "due diligence gap atlas",
+      "board narrative memo builder"
+    ],
+    "concentrationScore": 65,
+    "switchingCostScore": 59,
+    "contractExposureScore": 52,
+    "fallbackReadinessScore": 46,
+    "complianceDependencyScore": 41,
+    "platformCouplingScore": 57
+  }
+]

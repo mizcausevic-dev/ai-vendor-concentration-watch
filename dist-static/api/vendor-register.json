@@ -1,0 +1,68 @@
+[
+  {
+    "lane": "Foundation model control plane",
+    "operatingCluster": "AI platform",
+    "concentrationTier": "LOCKED_IN",
+    "action": "DIVERSIFY",
+    "owner": "Chief Product Officer",
+    "audience": "Board technology committee",
+    "concentrationNarrative": "One vendor is absorbing too much of the model-layer decision surface.",
+    "concentrationScore": 86,
+    "nextMove": "Stand up one board-visible fallback path for every customer-facing model workflow above the premium margin threshold."
+  },
+  {
+    "lane": "Cloud AI bundle and hosting estate",
+    "operatingCluster": "Cloud and infra",
+    "concentrationTier": "CONCENTRATED",
+    "action": "RING_FENCE",
+    "owner": "Platform engineering lead",
+    "audience": "Board finance committee",
+    "concentrationNarrative": "Convenience is drifting into stack-level dependency.",
+    "concentrationScore": 79,
+    "nextMove": "Force one renewal packet that prices AI, cloud, and identity together and separately before the next contract cycle."
+  },
+  {
+    "lane": "Regulated disclosure and policy operations",
+    "operatingCluster": "Compliance and trust",
+    "concentrationTier": "WATCHLIST",
+    "action": "CONTAIN",
+    "owner": "Risk and compliance lead",
+    "audience": "Board risk committee",
+    "concentrationNarrative": "Compliance packaging is reusable, but still too dependent on one external proof shape.",
+    "concentrationScore": 68,
+    "nextMove": "Publish one vendor-neutral evidence index and force every trust packet to resolve through it first."
+  },
+  {
+    "lane": "Data pipelines and model fine-tuning estate",
+    "operatingCluster": "Data and ML ops",
+    "concentrationTier": "CONCENTRATED",
+    "action": "PORT",
+    "owner": "Head of data",
+    "audience": "Board strategy committee",
+    "concentrationNarrative": "The estate can grow, but it cannot pivot cheaply enough yet.",
+    "concentrationScore": 74,
+    "nextMove": "Create one provider-neutral export bundle for prompts, evals, and tuning traces before the next major vendor negotiation."
+  },
+  {
+    "lane": "Revenue-facing AI experience estate",
+    "operatingCluster": "Growth and revenue systems",
+    "concentrationTier": "WATCHLIST",
+    "action": "NEGOTIATE",
+    "owner": "Chief Revenue Officer",
+    "audience": "Board growth committee",
+    "concentrationNarrative": "Commercial upside is real, but pricing leverage is uneven.",
+    "concentrationScore": 71,
+    "nextMove": "Attach one alternate-provider or degraded-mode plan to every revenue-critical AI workflow above the margin review threshold."
+  },
+  {
+    "lane": "Board and investor intelligence estate",
+    "operatingCluster": "Executive intelligence",
+    "concentrationTier": "WATCHLIST",
+    "action": "ESCALATE",
+    "owner": "Principal operator",
+    "audience": "Board and investor audiences",
+    "concentrationNarrative": "The strategy sounds diversified faster than the implementation proves it.",
+    "concentrationScore": 65,
+    "nextMove": "Add one quarterly substitution drill and one confidence score to every concentrated executive-intelligence lane."
+  }
+]
