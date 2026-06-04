@@ -2,7 +2,7 @@
 
 Board-ready executive-intelligence surface for exposing AI vendor concentration, dependency risk, switching pressure, and board-visible supplier exposure across the broader Kinetic Gain suite.
 
-- Live: `http://vendors.kineticgain.com/`
+- Live: `https://vendors.kineticgain.com/`
 - Repo: `mizcausevic-dev/ai-vendor-concentration-watch`
 
 ## Why this matters
